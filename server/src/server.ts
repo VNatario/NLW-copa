@@ -10,7 +10,7 @@ async function bootstrap() {
   //http:localhost:3333/pools/count
   fastify.get("/pools/count", () => {
     return {
-      count: 1123412343,
+      count: 113,
     };
   });
 
